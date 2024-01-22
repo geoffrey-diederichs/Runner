@@ -18,7 +18,7 @@ Endless runner en unity.
 
 - Un menu avec les options jouer et quitter
 - Caméra fixe
-- Appuyez sur la barre d'espace pour sauter (une deuxième fois pour un double saut)
+- Appuyez sur la barre d'espace pour sauter, une deuxième fois pour un double saut
 - Un score est affiché en haut de l'écran
 - Des obstacles rouges apparaissent : si vous en touchez un vous perdez, si vous en passez un vous gagnez 100 points. Ils disparaissent une fois hors de l'écran
 - Des pièces vertes apparaissent : si vous en touchez une vous gagnez 50 points. Elles disparaissent une fois hors de l'écran
