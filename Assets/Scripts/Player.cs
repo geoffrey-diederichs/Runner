@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("obstacle"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Menu");
         }
         else if (collision.gameObject.CompareTag("bonus"))
         {
