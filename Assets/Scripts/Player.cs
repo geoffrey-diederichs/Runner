@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     private int secondJumpForce = 300;
     private bool grounded = false;
     private bool secondJump = false;
+    public Score score;
 
     Rigidbody2D rb;
 
@@ -45,6 +46,11 @@ public class Player : MonoBehaviour
         else if (collision.gameObject.CompareTag("obstacle"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else if (collision.gameObject.CompareTag("bonus"))
+        {
+            Destroy(collision.gameObject);
+            score.UpdateScore(50);
         }
     }
 }

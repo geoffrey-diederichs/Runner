@@ -7,11 +7,6 @@ public class ObstaclesSpawner : MonoBehaviour
     private float nextSpawn = 0.0f;
     private float speedInc = 0.0f;
 
-    private void Start()
-    {
-        // InvokeRepeating(nameof(Spawn), this.spawnRate, this.spawnRate);
-    }
-
     private void Update()
     {
         if (Time.time >= this.nextSpawn)

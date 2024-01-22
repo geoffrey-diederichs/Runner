@@ -25,10 +25,6 @@ public class Obstacles : MonoBehaviour
         transform.Translate(Vector2.left*this.speed);
     }
 
-    private void Start()
-    {
-    }
-
     public void SetSpeed(float speedInc)
     {
         this.speed += speedInc;

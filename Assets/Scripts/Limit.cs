@@ -11,5 +11,9 @@ public class Limit : MonoBehaviour
             Destroy(collision.gameObject);
             score.UpdateScore(100);
         }
+        else if (collision.gameObject.tag == "bonus")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
